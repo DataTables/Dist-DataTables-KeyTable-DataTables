@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-keytable-dt",
-    "version": "2.2.1",
+    "version": "2.3.0",
     "description": "KeyTable for DataTables ",
     "files": [
         "css/keyTable.dataTables.css"
