@@ -3,7 +3,7 @@
     "version": "2.3.1",
     "description": "KeyTable for DataTables ",
     "files": [
-        "css/keyTable.dataTables.css"
+        "css/**/*.css"
     ],
     "style": "css/keyTable.dataTables.css",
     "keywords": [
