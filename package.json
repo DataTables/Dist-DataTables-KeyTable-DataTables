@@ -3,7 +3,8 @@
     "version": "2.3.2",
     "description": "KeyTable for DataTables ",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/keyTable.dataTables.css",
     "keywords": [
@@ -30,5 +31,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-KeyTable-DataTables.git"
-    }
+    },
+    "main": "js/keyTable.dataTables.js"
 }
