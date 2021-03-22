@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <metadata>
-        <id>datatables.net-keytable-dt</id>
-        <version>2.6.1</version>
-        <description>KeyTable for DataTables</description>
-        <authors>SpryMedia Ltd</authors>
-        <projectUrl>http://datatables.net</projectUrl>
-        <license type="expression">MIT</license>
-        <tags>keytable DataTables jQuery table DataTables</tags>
-        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-KeyTable-DataTables.git"/>
-        <dependencies>
-            <dependency id="jquery" version="1.7.0"/>
-            <dependency id="datatables.net" version="1.10.15"/>
-            <dependency id="datatables.net-keytable" version="2.5.2"/>
-            <dependency id="datatables.net-dt" version="1.10.15"/>
-        </dependencies>
-    </metadata>
-    <files>
-        <file src="js/keytable.datatables.js"/>
-        <file src="js/keytable.datatables.min.js"/>
-        <file src="css/keytable.datatables.css"/>
-        <file src="css/keytable.datatables.min.css"/>
-    </files>
+  <metadata>
+    <id>datatables.net-keytable-dt</id>
+    <version>2.6.1</version>
+    <description>KeyTable for DataTables</description>
+    <authors>SpryMedia Ltd</authors>
+    <projectUrl>http://datatables.net</projectUrl>
+    <license type="expression">MIT</license>
+    <tags>keytable DataTables jQuery table DataTables</tags>
+    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-KeyTable-DataTables.git"/>
+    <dependencies>
+      <dependency id="jquery" version="1.7.0"/>
+      <dependency id="datatables.net" version="1.10.15"/>
+      <dependency id="datatables.net-keytable" version="2.5.2"/>
+      <dependency id="datatables.net-dt" version="1.10.15"/>
+    </dependencies>
+    <contentFiles>
+      <files include="**/*" buildAction="Content"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="js/keytable.datatables.js" target="content\Scripts"/>
+    <file src="js/keytable.datatables.min.js" target="content\Scripts"/>
+    <file src="css/keytable.datatables.css" target="content\Content"/>
+    <file src="css/keytable.datatables.min.css" target="content\Content"/>
+    <file src="js/keytable.datatables.js" target="contentFiles\any\any\wwwroot\js"/>
+    <file src="js/keytable.datatables.min.js" target="contentFiles\any\any\wwwroot\js"/>
+    <file src="css/keytable.datatables.css" target="contentFiles\any\any\wwwroot\css"/>
+    <file src="css/keytable.datatables.min.css" target="contentFiles\any\any\wwwroot\css"/>
+  </files>
 </package>
