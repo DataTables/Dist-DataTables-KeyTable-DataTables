@@ -3,6 +3,7 @@
     "description": "KeyTable for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/keyTable.dataTables.js",
     "style": "css/keyTable.dataTables.css",
+    "types": "./types/keyTable.dataTables.d.ts",
     "version": "2.6.1",
     "files": [
         "css/**/*.css",
