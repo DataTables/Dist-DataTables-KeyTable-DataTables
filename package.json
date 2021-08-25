@@ -4,17 +4,17 @@
     "main": "js/keyTable.dataTables.js",
     "style": "css/keyTable.dataTables.css",
     "types": "./types/keyTable.dataTables.d.ts",
-    "version": "2.6.2",
+    "version": "2.6.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "KeyTable",
- "Excel",
- "keyboard",
- "Spreadsheet",
-                "Datatables",
+        "Excel",
+        "keyboard",
+        "Spreadsheet",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
