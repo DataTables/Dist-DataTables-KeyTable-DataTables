@@ -2,12 +2,14 @@
     "name": "datatables.net-keytable-dt",
     "description": "KeyTable for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/keyTable.dataTables.js",
+    "module": "js/keyTable.dataTables.mjs",
     "style": "css/keyTable.dataTables.css",
     "types": "./types/keyTable.dataTables.d.ts",
     "version": "2.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
