@@ -10,7 +10,8 @@
         "css/keyTable.dataTables.min.css"
     ],
     "types": [
-        "types/keyTable.dataTables.d.ts"
+        "types/keyTable.dataTables.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/KeyTable",
     "last-tag": "2.7.0"

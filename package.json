@@ -4,7 +4,7 @@
     "main": "js/keyTable.dataTables.js",
     "module": "js/keyTable.dataTables.mjs",
     "style": "css/keyTable.dataTables.css",
-    "types": "./types/keyTable.dataTables.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.7.0",
     "files": [
         "css/**/*.css",
