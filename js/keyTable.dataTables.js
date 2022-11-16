@@ -28,10 +28,9 @@
 				require('datatables.net-dt')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.KeyTable ) {
 				require('datatables.net-keytable')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
