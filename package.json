@@ -5,7 +5,7 @@
     "module": "js/keyTable.dataTables.mjs",
     "style": "css/keyTable.dataTables.css",
     "types": "./types/keyTable.dataTables.d.ts",
-    "version": "2.12.0",
+    "version": "2.12.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -24,7 +24,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": "2.12.0",
+        "datatables.net-keytable": "2.12.1",
         "datatables.net-dt": ">=1.11.0",
         "jquery": ">=1.7"
     },
