@@ -5,7 +5,7 @@
     "module": "js/keyTable.dataTables.mjs",
     "style": "css/keyTable.dataTables.css",
     "types": "./types/keyTable.dataTables.d.ts",
-    "version": "3.0.0-beta.1",
+    "version": "3.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": "3.0.0-beta.1",
-        "datatables.net-dt": "3.0.0-0"
+        "datatables.net-keytable": "3.0.0",
+        "datatables.net-dt": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
