@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/keyTable.dataTables.d.ts",
+            "style": "./css/keyTable.dataTables.css",
             "import": "./js/keyTable.dataTables.mjs",
-            "default": "./js/keyTable.dataTables.mjs",
-            "require": "./js/keyTable.dataTables.js"
+            "require": "./js/keyTable.dataTables.js",
+            "default": "./js/keyTable.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
